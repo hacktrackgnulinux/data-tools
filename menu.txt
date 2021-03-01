@@ -10,7 +10,6 @@
 10) Maintaining Acces
 11) Hardware Hacking
 12) Reverse Engineering
-13) 
-14)
-15)
-16)
+13) Reporting Tools
+14) Extra Tools
+15) Accessories Tools
