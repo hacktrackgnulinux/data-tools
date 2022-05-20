@@ -18,6 +18,9 @@ Information Of Tag
         + binwalk https://github.com/ReFirmLabs/binwalk
     = PDF Forensics Tools
         - 00hack
+        + Pdfid https://blog.didierstevens.com/programs/pdf-tools/
+        + pdfparser https://github.com/smalot/pdfparser
+        + Peepdf https://github.com/jesparza/peepdf
     - Sleuth Kit Suite
 06) Web Applications
 07) Stress Testing
