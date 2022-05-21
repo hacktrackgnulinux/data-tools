@@ -79,9 +79,28 @@ Information Of Tag
         = websploit
         = xsser
 08) Sniffing & Spoofing
+    = Network Sniffers
+        - 00hack
+    = Spoofing and MITM
+        - 00hack
 09) Password Attacks
+    = Network Spoofing Tools
+    = Offline Attacks
+    = Online Attacks
+    = Passing the Hash tools
+    = Password Profiling & Worldlists
+    = Physical Password Attacks
 10) Maintaining Acces
+    = BeEF
+    = Dradis
+    = Metasploit
+    = OpenVas
+    = Tunelling Tools
+    = Xplico
 11) Hardware Hacking
+    + Wireflasher
+       + adb
+       + fastboot
 12) Reverse Engineering
 13) Reporting Tools
 14) Extra Tools
