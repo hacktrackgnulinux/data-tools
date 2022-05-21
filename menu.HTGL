@@ -29,7 +29,7 @@ Information Of Tag
         = denial6
         = dos-new-ip6
         = flood_advertise6
-        = flood_dhcps6
+        = flood_dhcpc6
         = flood_mld6
         = flood_mldrouter6
         = flood_redir6
@@ -55,8 +55,29 @@ Information Of Tag
         = sendpees6
         = smurf6
     = VOIP Stress Testing
+        = dos-new-ip6
+        = flood_advertise6
+        = flood_dhcpc6
+        = flood_mld6
+        = flood_mldrouter6
+        = flood_redir6
+        = flood_router26
+        = flood_router6
+        = flood_rs6
+        = flood_solicitate6
+        = fragmentation6
+        = kill_router6
+        = mdk3
+        = ndpexhaust26
+        = ndpezhaust6
+        = smurf6
+        = thcsyn6
     = WLAN Stress Testing
+        = mdk3
+        = reaver
     = WEB Application Fuzzer
+        = websploit
+        = xsser
 08) Sniffing & Spoofing
 09) Password Attacks
 10) Maintaining Acces
