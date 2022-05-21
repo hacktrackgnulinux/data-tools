@@ -1,0 +1,431 @@
+# Main Menu of << Hack|Track GNU/Linux
+
+# Maintener Hack Track <hacktracklinux@yahoo.com>
+
+01) Information Gathering
+
+02) Vulnerability Analysis
+
+03) Exploitation Tools
+
+04) Wireless Attacks
+
+05) Forensics Tools
+
+06) Web Applications
+
+07) Stress Testing
+
+08) Sniffing & Spoofing
+
+09) Password Attacks
+
+10) Maintaining Access
+
+11) Hardware Hacking
+
+12) Reverse Engineering
+
+13) Reporting Tools
+
+14) Extra Tools
+
+15) Accessosies Tools
+
+16) System Tools
+
+
+
+===================================================
+
+A B C D E F G H I J K L M N O P Q R S T U P W X Y Z
+
+
+
+00) Top Level Category
+
+	• 00 Sub Category
+
+	  	00 Tools in Sub Category
+
+        00 Tools in Top Level Category
+
+	
+
+Note : * New Category or Tools
+
+=====================================================
+
+
+
+01) Information Gathering
+
+	• DNS Analysis
+
+		dnsdict6 *
+
+		dnsenum *
+
+		dnmap *
+
+		dnsmap *
+
+		dnsrecon *
+
+		dnsrevnum6 *
+
+		dnswalk *
+
+		dnssecwalk *
+
+		dmitry *
+
+		fierce *
+
+		Nmap *
+
+		urlcrazy * 
+
+	• Fingerprint Analysis  * 
+
+	• Firewall Analysis *
+
+		denial6 *
+
+		dumprouter6 * 
+
+		firewall6 * 
+
+		fragrouter6 *									
+
+		fragmentation6 *
+
+		implementation6 *
+
+		implementation6d *
+
+	• IDS/IPS Identification
+
+	• Live Host Identification
+
+		alive6 *
+
+		detect-new-ip6 *
+
+		four2six * 
+
+		inverselookup6 *
+
+		nodequery6 *
+
+		randicmp6 *
+
+		thcping6 *
+
+	• Network & Port Scanners
+
+	• OSINT Analysis
+
+	• Port Analysis *
+
+		braa * 
+
+		hping3  *
+
+		sslsplit  *
+
+		sslyz *
+
+		smtp-user-e *
+
+	• Route Analysis
+
+	• Service Analysis *
+
+		miranda *
+
+	• SMB Analysis
+
+	• SMTP Analysis
+
+	• SNMP Analysis
+
+	• SSL Analysis
+
+
+
+02) Vulnerability Analysis
+
+	• Cisco Tools
+
+	• Fuzzing Tools
+
+	• Nessus Scanner
+
+	• OpenVAS Scanner
+
+	• VoIP Tools
+
+  
+
+03) Exploitation Tools
+
+	• OS Backdoors
+
+	• Tunneling & Exfiltration
+
+	• Web Backdoors
+
+  
+
+04) Wireless Attacks
+
+	• 802.11 Wireless Tools
+
+	• Bluetooth Tools
+
+		bluelog *
+
+		bluesnarfer *
+
+	• GPS Analyssis *
+
+		kismet *
+
+	• Other Wireless Tools
+
+	• RFID & NFC Tools
+
+		rfidiot *
+
+	• Software Defined Radio
+
+		kalibrate-rtl *
+
+		mfoc *
+
+	aircrack *
+
+	asleap *
+
+	besside-ng *
+
+	cowpatty *
+
+	crackle * 
+
+	eapmd5pass *
+
+	macchanger *
+
+	mdk3 *
+
+	pixiewps *
+
+	reaver * 
+
+	wifihoney *
+
+	wifitap *
+
+	
+
+05) Forensics Tools
+
+	• Digital Forensics
+
+	• Forensic Carving Tools
+
+	• Forensic Hashing Tools
+
+	• Forensic Imaging Tools
+
+	• PDF Forensics Tools
+
+	• Sleuth Kit Suite
+
+	• Network Forensics Tools *
+
+		crackle *					
+
+		tshark *
+
+	• Recovery Carving Tools *
+
+		testdisk *
+
+		photorec  *
+
+  
+
+06) Web Applications
+
+	• CMS & Framework Identification
+
+	• Web Application Proxies
+
+	• Web Crawlers & Directory Bruteforce
+
+	• Web Vulnerability Scanners
+
+  
+
+07) Stress Testing
+
+	dhcpig  *
+
+	dos-new-ip6  *
+
+	floodadvertise6  *
+
+	flooddhcpc6  *
+
+	floodmld26  *
+
+	floodmld6  *
+
+	flood_mldrouter6  *
+
+	floodredir6  *
+
+	floodrouter26  *
+
+	floodrouter6  *
+
+	floodrs6  *
+
+	floodsolicitate6  *
+
+	fragmentation6  *
+
+	kill_router6  *
+
+	mdk3  *
+
+	ndpexhaust6  *
+
+	ndpexhaust26  *
+
+	slowhttptest  *
+
+	slowloris  *
+
+	smurf6  *
+
+	termineter  *
+
+	thc-ssl-dos  *
+
+	thcsyn6  *
+
+
+
+08) Sniffing & Spoofing
+
+	• Network Sniffers
+
+	• Spoofing and MITM
+
+  
+
+09) Password Attacks
+
+	• Offline Attacks
+
+	• Online Attacks
+
+	• Passing the Hash tools
+
+	• Password Profiling & Wordlists
+
+  	aircrack  *
+
+	doona  *
+
+	eapmd5pass  *
+
+	cmospwd  *
+
+	cowpatty  *
+
+	enumiax  *
+
+	findMyhash  *
+
+	hash-identifier  *
+
+	hydra  *
+
+	john  *
+
+	mkbrutus  *
+
+	patator  *
+
+	pyrit  *
+
+	rainbowcrack  *
+
+
+
+10) Maintaining Access
+
+	• BeEF
+
+	• Dradis
+
+	• Metasploit
+
+	• OpenVas
+
+	• Xplico
+
+  
+
+11) Hardware Hacking
+
+
+
+12) Reverse Engineering
+
+	asm   *
+
+	constgrep   *					
+
+	disasm 	  * 				
+
+	cyclic 	  *				
+
+	checksec   *					
+
+	elfpatch   *					
+
+	elfdiff   *					
+
+	gdb   *					
+
+	hex   *					
+
+	hexedit   *					
+
+	hexdump   *					
+
+	phd   *					
+
+	unhex  *
+
+	
+
+13) Reporting Tools
+
+
+
+14) Extra Tools
+
+
+
+15) Accessories Tools
+
+
+
+16) System Tools
