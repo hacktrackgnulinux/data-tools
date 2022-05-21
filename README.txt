@@ -1,6 +1,19 @@
 # Menu
 [Menu] List Menu untuk HackTrack GNU/linux
 
+===================================================
+A B C D E F G H I J K L M N O P Q R S T U P W X Y Z
+
+00) Top Level Category
+	• Sub Category
+	  	Tools in Sub Category
+        Tools in Top Level Category
+          Name Tools + URL
+Note : * New Category or Tools
+       * Information Of Tag
+         - Deleted + Add = Same
+=====================================================
+
 01) Information Gathering
 02) Vulnerability Analysis
 03) Exploitation Attacks
