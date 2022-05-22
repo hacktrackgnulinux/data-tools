@@ -14,7 +14,7 @@
 - Patator
 - Thc-pptp-btuter
 
-### Worlists
+### Wordlists
 - Cewl
 - Crunch
 - Wordlists
