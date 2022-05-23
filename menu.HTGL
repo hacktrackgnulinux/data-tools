@@ -12,6 +12,52 @@ Note : * New Category or Tools
 =====================================================
 
 01) Information Gathering
+    = • DNS Analysis
+        = dnsdict6 
+        = dnsenum 
+        = dnmap 
+        = dnsmap 
+        = dnsrecon 
+        = dnsrevnum6 
+        = dnswalk 
+        = dnssecwalk 
+        = dmitry 
+        = fierce 
+        = Nmap 
+        = urlcrazy 
+    = • Fingerprint Analysis  
+    = • Firewall Analysis 
+        = denial6 
+        = dumprouter6 
+        = firewall6 
+        = fragrouter6 							
+        = fragmentation6 
+        = implementation6 
+        = implementation6d 
+    = • IDS/IPS Identification
+    = • Live Host Identification
+        = alive6 
+        = detect-new-ip6 
+        = four2six 
+        = inverselookup6 
+        = nodequery6 
+        = randicmp6 
+        = thcping6 
+    = • Network & Port Scanners
+    = • OSINT Analysis
+    = • Port Analysis 
+        = braa 
+        = hping3  
+        = sslsplit  
+        = sslyz 
+        = smtp-user-e 
+    = • Route Analysis
+    = • Service Analysis 
+        = miranda 
+    = • SMB Analysis
+    = • SMTP Analysis
+    = • SNMP Analysis
+    = • SSL Analysis
 02) Vulnerability Analysis
     = • CMS Vulnerability Identification
         = joomscan
