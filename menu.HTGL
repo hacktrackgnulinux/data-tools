@@ -109,11 +109,36 @@ Note : * New Category or Tools
     = Tunelling Tools
     = Xplico
 11) Hardware Hacking
-    + Wireflasher
+    + Android Debugging
        + adb
-       + fastboot
+    + Flashing Tools
+       + SP Flash Tool (Mediatek)
+       + Heimdall (Odin)
+       + fastboot (Qualcomm)
+       + wireflasher (Xiaomi)
+    + Disk Tools
+       + gparted
+       + dd
+       + hdsentinel https://www.hdsentinel.com/hard_disk_sentinel_linux.php
 12) Reverse Engineering
+    + Debugging
+       + adb
+       + edb-debugger http://codef00.com/projects#debugger
+       + valgrind https://www.valgrind.org/
+     + Java Reverse engineering
+       + jad
+       + javasnoop https://code.google.com/archive/p/javasnoop/
+       + jd-gui http://java-decompiler.github.io/
+     + Mobile Reverse Engineering
+       + apktool https://github.com/iBotPeaches/Apktool
+       + dex2jar https://github.com/pxb1988/dex2jar/
+     + HEX
+       + hd 
+       + hexdump
+       + hexedit 
 13) Reporting Tools
+    = Software Documentation
+       = svreport
 14) Extra Tools
     = Converter Tools
        = gnmap2md
