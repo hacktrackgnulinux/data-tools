@@ -133,7 +133,26 @@ Note : * New Category or Tools
        = dump_dhcp6
        = fake_advertise6
        = fake_dhcps6
-       
+       = fake_dns6d
+       = fake_dnsupdate6
+       = fake_mipv6
+       = fake_mld26
+       = fake_mld6
+       = fake_mldrouter6
+       = fake_pim6
+       = fake_router26
+       = fake_router6
+       = fake_solicitate6
+       = grep6.pl
+       = inject_alive6
+       = local_discover6.sh
+       = node_query6
+       = redirsniff6
+       = sendpeesmp6
+       = six2four.sh
+       = spoofer
+       = thc-ipv6-setup.sh
+       = toobigsniff6
 15) Accessories Tools
     = CLI Applications
        = uname
