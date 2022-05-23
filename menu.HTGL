@@ -115,4 +115,42 @@ Note : * New Category or Tools
 12) Reverse Engineering
 13) Reporting Tools
 14) Extra Tools
+    = Converter Tools
+       = gnmap2md
+    = Miscellaneous
+       = macchanger
+    = SipVicius Tools
+       = svcrash
+    = THC IPv6 Tools
+       = 6to4tesh.sh
+       = address6
+       = alive2map.sh
+       = axfr.sh
+       = connsplit6
+       = convert_send6
+       = convert_send6d
+       = create_network_map.sh
+       = dump_dhcp6
+       = fake_advertise6
+       = fake_dhcps6
+       
 15) Accessories Tools
+    = CLI Applications
+       = uname
+       = alsamixer
+       = bc
+       = terminal
+       = cal
+       = cmatrix
+       = df
+       = figlet
+       = freeram
+       = irssi
+       = ifconfig
+       = moc
+       = nano
+       = ping
+       = sftp
+       = tar
+       = top
+       = wget
