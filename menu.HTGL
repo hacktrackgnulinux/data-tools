@@ -14,21 +14,27 @@ Note : * New Category or Tools
 01) Information Gathering
 02) Vulnerability Analysis
 03) Exploitation Attacks
+
+	• OS Backdoors
+
+	• Tunneling & Exfiltration
+
+	• Web Backdoors
 04) Wireless Attacks
 05) Forensics Tools
-    = Digital Forensics
+    = • Digital Forensics
         - 00hack
-    = Forensic Carving Tools
+    = • Forensic Carving Tools
         - 00hack
         + foremost https://sourceforge.net/projects/foremost/
         + scalpel https://github.com/sleuthkit/scalpel
-    = Forensic Hashing Tools
+    = • Forensic Hashing Tools
         - 00hack
         + Autopsy https://www.sleuthkit.org/autopsy/
-    = Forensic Imaging Tools
+    = • Forensic Imaging Tools
         - 00hack
         + binwalk https://github.com/ReFirmLabs/binwalk
-    = PDF Forensics Tools
+    = • PDF Forensics Tools
         - 00hack
         + Pdfid https://blog.didierstevens.com/programs/pdf-tools/
         + pdfparser https://github.com/smalot/pdfparser
@@ -36,7 +42,7 @@ Note : * New Category or Tools
     - Sleuth Kit Suite
 06) Web Applications
 07) Stress Testing
-    = DOS
+    = • DOS
         = denial6
         = dos-new-ip6
         = flood_advertise6
@@ -51,13 +57,13 @@ Note : * New Category or Tools
         = kill_router6
         = rsmurf6
         = smurf6
-    = Fuzzing Tools
+    = • Fuzzing Tools
         = bed
         = fuzz_dhcpc6
         = fuzz_ip6
         = ohrwurm
         = sfuzz
-    = Network Stress Testing
+    = • Network Stress Testing
         = denial6
         = dos-new-ip6
         = flood_advestise6
@@ -65,7 +71,7 @@ Note : * New Category or Tools
         = rsmurf6
         = sendpees6
         = smurf6
-    = VOIP Stress Testing
+    = • VOIP Stress Testing
         = dos-new-ip6
         = flood_advertise6
         = flood_dhcpc6
@@ -83,76 +89,76 @@ Note : * New Category or Tools
         = ndpezhaust6
         = smurf6
         = thcsyn6
-    = WLAN Stress Testing
+    = • WLAN Stress Testing
         = mdk3
         = reaver
-    = WEB Application Fuzzer
+    = • WEB Application Fuzzer
         = websploit
         = xsser
 08) Sniffing & Spoofing
-    = Network Sniffers
+    = • Network Sniffers
         - 00hack
-    = Spoofing and MITM
+    = • Spoofing and MITM
         - 00hack
 09) Password Attacks
-    = Network Spoofing Tools
-    = Offline Attacks
-    = Online Attacks
-    = Passing the Hash tools
-    = Password Profiling & Worldlists
-    = Physical Password Attacks
+    = • Network Spoofing Tools
+    = • Offline Attacks
+    = • Online Attacks
+    = • Passing the Hash tools
+    = • Password Profiling & Worldlists
+    = • Physical Password Attacks
 10) Maintaining Acces
-    = BeEF
+    = • BeEF
        - 00hack
-    = Dradis
+    = • Dradis
        - 00hack
-    = Metasploit
+    = • Metasploit
        - 00hack
-    = OpenVas
+    = • OpenVas
        - 00hack
-    = Tunelling Tools
+    = • Tunelling Tools
        = stunnel
-    = Xplico
+    = • Xplico
        - 00hack
 11) Hardware Hacking
-    + Android Debugging
+    + • Android Debugging
        + adb
-    + Flashing Tools
+    + • Flashing Tools
        + SP Flash Tool (Mediatek)
        + Heimdall (Odin)
        + fastboot (Qualcomm)
        + wireflasher (Xiaomi)
-    + Disk Tools
+    + • Disk Tools
        + gparted
        + dd
        + hdsentinel https://www.hdsentinel.com/hard_disk_sentinel_linux.php
 12) Reverse Engineering
-    + Debugging
+    + • Debugging
        + adb
        + edb-debugger http://codef00.com/projects#debugger
        + valgrind https://www.valgrind.org/
-     + Java Reverse engineering
+     + • Java Reverse engineering
        + jad
        + javasnoop https://code.google.com/archive/p/javasnoop/
        + jd-gui http://java-decompiler.github.io/
-     + Mobile Reverse Engineering
+     + • Mobile Reverse Engineering
        + apktool https://github.com/iBotPeaches/Apktool
        + dex2jar https://github.com/pxb1988/dex2jar/
-     + HEX
+     + • HEX
        + hd 
        + hexdump
        + hexedit 
 13) Reporting Tools
-    = Software Documentation
+    = • Software Documentation
        = svreport
 14) Extra Tools
-    = Converter Tools
+    = • Converter Tools
        = gnmap2md
-    = Miscellaneous
+    = • Miscellaneous
        = macchanger
-    = SipVicius Tools
+    = • SipVicius Tools
        = svcrash
-    = THC IPv6 Tools
+    = • • THC IPv6 Tools
        = 6to4tesh.sh
        = address6
        = alive2map.sh
@@ -185,7 +191,7 @@ Note : * New Category or Tools
        = thc-ipv6-setup.sh
        = toobigsniff6
 15) Accessories Tools
-    = CLI Applications
+    = • CLI Applications
        = uname
        = alsamixer
        = bc
