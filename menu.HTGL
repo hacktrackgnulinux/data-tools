@@ -103,11 +103,17 @@ Note : * New Category or Tools
     = Physical Password Attacks
 10) Maintaining Acces
     = BeEF
+       - 00hack
     = Dradis
+       - 00hack
     = Metasploit
+       - 00hack
     = OpenVas
+       - 00hack
     = Tunelling Tools
+       = stunnel
     = Xplico
+       - 00hack
 11) Hardware Hacking
     + Android Debugging
        + adb
