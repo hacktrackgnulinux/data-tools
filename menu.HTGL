@@ -14,12 +14,31 @@ Note : * New Category or Tools
 01) Information Gathering
 02) Vulnerability Analysis
 03) Exploitation Attacks
-
-	• OS Backdoors
-
-	• Tunneling & Exfiltration
-
-	• Web Backdoors
+    = • Cisco Violation
+        = yersinia
+    = • Cms Credentials
+        = plecost
+    = • Database
+        = bbqsql
+	= slsus
+    = • Network Exploitation
+        = crackle
+	= exploit6
+	= shellnoob
+    = • OS Backdoors
+        - 00hack
+    = • Tunneling & Exfiltration
+        - 00hack
+    = • WLAN Exploitation Tools
+        - aircrack-ng
+	- airodump-ng
+    = • Web Backdoors
+        - 00hack
+    = • Web Crawlers
+        = parsero
+    = • Web Exploitation Tools
+       = sqlninja
+    = xsser
 04) Wireless Attacks
 05) Forensics Tools
     = • Digital Forensics
