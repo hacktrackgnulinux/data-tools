@@ -13,6 +13,62 @@ Note : * New Category or Tools
 
 01) Information Gathering
 02) Vulnerability Analysis
+    = • CMS Vulnerability Identification
+        = joomscan
+	= plecost
+    = • Cisco Tools
+        = yersinia
+    = • Database Reckoning
+        = bbqsql
+	= dbpwaudit
+	= hexorbase
+	= oscanner
+	= sqlninja
+	= sqlsus
+	= tnscmd10g
+    = • Fuzzing Tools
+        = bed
+	= fuzz_ip6
+	= ohwurm
+	= sfuzz
+	= websploit
+	= xsser
+    = • Nessus Scanner
+        - 00hack
+    = • Open Source Web Application Assessment
+        = goohost
+	= gooscan
+	= shodan
+	= theHarvester
+    = • OpenVAS Scanner
+        - 00hack
+    = • VoIP Tools
+        - 00hack
+    = • Vulnerability Scanners
+        = bed
+	= fuzz_ip6
+	= ohwurm
+	= sfuzz
+	= sickfuzz
+    = • Web Vulnerability Scanners
+        = asp-auditor
+	= cadaver
+	= davtest
+	= deblaze
+	= grabber
+	= grabber
+	= inxi
+	= joomscan
+	= jsql
+	= lynis
+	= nikto
+	= nikto
+	= skipfish
+	= skipfish
+	= websploit
+	= whatweb
+	= wstool
+	= xsser
 03) Exploitation Attacks
     = • Cisco Violation
         = yersinia
