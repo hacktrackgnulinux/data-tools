@@ -1,0 +1,20 @@
+maltego 
+  wget -c https://maltego-downloads.s3.us-east-2.amazonaws.com/linux/Maltego.v4.3.1.deb
+  dpkg -i Maltego.v4.3.1.deb 
+    
+nmap
+  wget -c https://nmap.org/dist/nmap-7.92.tar.bz2
+  bzip2 -cd nmap-7.92.tar.bz2 | tar xvf -
+  cd nmap-7.92
+  ./configure
+  make
+  su root
+  make install
+  
+recon-ng  
+  wget -c https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip
+  mv recon-ng-master.zip recon-ng.zip
+  unzip recon-ng.zip
+
+sparta
+  https://github.com/SECFORCE/sparta
