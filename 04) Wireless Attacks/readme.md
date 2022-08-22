@@ -9,3 +9,4 @@
 - Reaver
 - Wifite
 - MDK3
+- linset https://github.com/chunkingz/linsetmv1-2  
