@@ -4,3 +4,4 @@
 - Ohwurm
 - Powerfuzzer
 - Sfuzz
+- Uniscan
