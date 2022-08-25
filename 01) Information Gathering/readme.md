@@ -5,3 +5,6 @@
 - Recon-ng
 - Sparta
 - Ike-Scan
+- Httpx
+- Nuclei
+- Subfinder
