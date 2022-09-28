@@ -13,6 +13,7 @@ Note : * New Category or Tools
 =====================================================
 
 01) Information Gathering
+    = • CMS Identification
     = • DNS Analysis
         = dnsdict6 
         = dnsenum 
@@ -26,7 +27,8 @@ Note : * New Category or Tools
         = fierce 
         = Nmap 
         = urlcrazy 
-    = • Fingerprint Analysis  
+    = • DNS Evolution
+    = • Fingerprint Analysis
     = • Firewall Analysis 
         = denial6 
         = dumprouter6 
@@ -35,6 +37,7 @@ Note : * New Category or Tools
         = fragmentation6 
         = implementation6 
         = implementation6d 
+    = • HTTrack
     = • IDS/IPS Identification
     = • Live Host Identification
         = alive6 
@@ -45,20 +48,33 @@ Note : * New Category or Tools
         = randicmp6 
         = thcping6 
     = • Network & Port Scanners
+    = • OS Fingerprint
     = • OSINT Analysis
+    = • Open Source Intelligence
     = • Port Analysis 
         = braa 
         = hping3  
         = sslsplit  
         = sslyz 
         = smtp-user-e 
+    = • Proxy
     = • Route Analysis
-    = • Service Analysis 
-        = miranda 
     = • SMB Analysis
     = • SMTP Analysis
     = • SNMP Analysis
     = • SSL Analysis
+    = • SSL Breakdown
+    = • Service Analysis 
+        = miranda 
+    = • Service Fingerprinting
+    = • SMB Evolution
+    = • SNMP Evolution
+    = • Telphony Aalysis
+    = • Traffic Monitor
+    = • VPN Analysis
+    = • Web IPS IDS Analysis
+    = • Web Snanner
+    = • Wireless Analysis
 02) Vulnerability Analysis
     = • CMS Vulnerability Identification
         = joomscan
@@ -123,7 +139,7 @@ Note : * New Category or Tools
         = plecost
     = • Database
         = bbqsql
-	= slsus
+	= sqlsus
     = • Network Exploitation
         = crackle
 	= exploit6
