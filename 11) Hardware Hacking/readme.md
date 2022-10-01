@@ -6,3 +6,4 @@
 - Dex2jar
 - Sakis3g
 - Smali
+- scrcpy
