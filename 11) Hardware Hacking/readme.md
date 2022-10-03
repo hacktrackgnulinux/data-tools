@@ -7,3 +7,4 @@
 - Sakis3g
 - Smali
 - scrcpy
+- wireflasher
