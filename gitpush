@@ -12,8 +12,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-package=menu
-version="menu (2.1.6)"
+package=tools
+version="tools (2.1.6)"
 figlet $package
 echo " Set Remote... "
 git remote set-url origin git@github.com:hacktrackgnulinux/$package.git
