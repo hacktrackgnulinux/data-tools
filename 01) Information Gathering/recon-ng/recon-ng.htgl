@@ -1,0 +1,4 @@
+recon-ng  
+  wget -c https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip
+  mv recon-ng-master.zip recon-ng.zip
+  unzip recon-ng.zip

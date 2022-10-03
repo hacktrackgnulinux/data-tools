@@ -1,0 +1,3 @@
+ike-scan
+  wget -c http://http.kali.org/kali/pool/main/i/ike-scan/ike-scan_1.9.5-1+b1_i386.deb
+  dpkg -i ike-scan_1.9.5-1+b1_i386.deb

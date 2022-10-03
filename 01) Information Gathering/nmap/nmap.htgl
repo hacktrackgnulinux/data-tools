@@ -1,0 +1,8 @@
+nmap
+  wget -c https://nmap.org/dist/nmap-7.92.tar.bz2
+  bzip2 -cd nmap-7.92.tar.bz2 | tar xvf -
+  cd nmap-7.92
+  ./configure
+  make
+  su root
+  make install

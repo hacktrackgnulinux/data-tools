@@ -1,10 +1,10 @@
 ## Information Gathering
 
-- Nmap
-- Maltego
-- Recon-ng
-- Sparta
-- Ike-Scan
-- Httpx
-- Nuclei
-- Subfinder
+- nmap
+- maltego
+- recon-ng
+- sparta
+- ike-Scan
+- httpx
+- nuclei
+- subfinder

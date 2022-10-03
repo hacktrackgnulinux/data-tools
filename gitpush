@@ -13,7 +13,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 package=tools
-version="tools (2.1.7)"
+version="tools (2.1.8)"
 figlet $package
 echo " Set Remote... "
 git remote set-url origin git@github.com:hacktrackgnulinux/$package.git
