@@ -154,8 +154,18 @@ Note : * New Category or Tools
         = waffit
     = • Web Inventory
         = enum4linux
+	= firewalk
+	= iwebaudit
+	= nmap-scrape
+	= parsero
+	= pyfoca
+	= rid_enum
     = • Web Snanner
+        = dirb
     = • Wireless Analysis
+        = airodump-ng
+	= giskismet
+	= kismet
 02) Vulnerability Analysis
     = • CMS Vulnerability Identification
         = joomscan
