@@ -4,7 +4,7 @@
 - Fern wifi cracker
 - Spooftooph
 - Kismet
-- Aircrack-ng
+- Aircrack-ng https://www.aircrack-ng.org/downloads.html
 - Pixiewps
 - Reaver
 - Wifite
