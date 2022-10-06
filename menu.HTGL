@@ -9,7 +9,7 @@ A B C D E F G H I J K L M N O P Q R S T U P W X Y Z
           Name Tools + URL
 Note : * New Category or Tools
        * Information Of Tag
-         - Deleted + Add = Same
+         - Deleted + Add = Same OK
 =====================================================
 
 01) Information Gathering
@@ -88,8 +88,6 @@ Note : * New Category or Tools
 	= nmap
 	= p0f
 	= sctpscan
-    = • OSINT Analysis
-        = 00hack
     = • Open Source Intelligence
         = dmitry
 	= revhosts
@@ -187,17 +185,11 @@ Note : * New Category or Tools
 	= sfuzz
 	= websploit
 	= xsser
-    = • Nessus Scanner
-        - 00hack
     = • Open Source Web Application Assessment
         = goohost
 	= gooscan
 	= shodan
 	= theHarvester
-    = • OpenVAS Scanner
-        - 00hack
-    = • VoIP Tools
-        - 00hack
     = • Vulnerability Scanners
         = bed
 	= fuzz_ip6
@@ -223,89 +215,84 @@ Note : * New Category or Tools
 	= whatweb
 	= wstool
 	= xsser
+   = nikto
+   = nmap
 03) Exploitation Attacks
     = • Cisco Violation
         = yersinia
     = • Cms Credentials
         = plecost
-    = • Database
+    = • Databse
         = bbqsql
 	= sqlsus
     = • Network Exploitation
         = crackle
 	= exploit6
 	= shellnoob
-    = • OS Backdoors
-        - 00hack
-    = • Tunneling & Exfiltration
-        - 00hack
     = • WLAN Exploitation Tools
         - aircrack-ng
 	- airodump-ng
-    = • Web Backdoors
-        - 00hack
     = • Web Crawlers
         = parsero
     = • Web Exploitation Tools
        = sqlninja
     = xsser
+    = crackmapaexec
+    = metasploit
+    = msf
+    = seetolkit
+    = shelly
 04) Wireless Attacks
-    = • 802.11 Wireless Tools
+    = • 802.11 Wireless Tools 
+       = iwconfig
     = • Bluetooth Tools
-       + bluelog
-       + bluesnarfer
+       = lsb
     = • GPS Analyssis
        = kismet
-    = • Other Wireless Tools
-    = • RFID & NFC Tools
-       + rfidiot
-    = • Software Defined Radio
-       + kalibrate-rtl
-       + mfoc
-    = aircrack
-    = asleap
-    = besside-ng
-    = cowpatty
-    = crackle
-    = eapmd5pass
+    = aircrack-ng
+    = bully
+    = fluxion
     = macchanger
     = mdk3
     = pixiewps
     = reaver
-    = wifihoney
-    = wifitap
 05) Forensics Tools
-    = • Digital Forensics
-        - 00hack
     = • Forensic Carving Tools
-        - 00hack
-        + foremost https://sourceforge.net/projects/foremost/
-        + scalpel https://github.com/sleuthkit/scalpel
+        = foremost https://sourceforge.net/projects/foremost/
+        = scalpel https://github.com/sleuthkit/scalpel
     = • Forensic Hashing Tools
-        - 00hack
-        + Autopsy https://www.sleuthkit.org/autopsy/
+        = Autopsy https://www.sleuthkit.org/autopsy/
     = • Forensic Imaging Tools
-        - 00hack
-        + binwalk https://github.com/ReFirmLabs/binwalk
+        = binwalk https://github.com/ReFirmLabs/binwalk
     = • PDF Forensics Tools
-        - 00hack
-        + Pdfid https://blog.didierstevens.com/programs/pdf-tools/
-        + pdfparser https://github.com/smalot/pdfparser
-        + Peepdf https://github.com/jesparza/peepdf
-    - Sleuth Kit Suite
+        = Pdfid https://blog.didierstevens.com/programs/pdf-tools/
+        = pdfparser https://github.com/smalot/pdfparser
+        = Peepdf https://github.com/jesparza/peepdf
+    = foremost
+    = scalpel
+    = autospy
+    = pdfid
+    = pdfparser
+    = peepdf
 06) Web Application
-    = • CMS & Framework Identification
-        - 00hack
-    = • Web Application Proxies
-        - 00hack
     = • Web Bruteforce Firewall
         = firewarebf
     = • Web Crawlers & Directory Bruteforce
-        - 00hack
+        = wpscan
     = • Web Vulnerability Scanners
-        - 00hack
+        = nikto
     = joomscan
     = websploit
+    = wpscan
+    = dirb
+    = dibuster
+    = wfuzz
+    = uniscan
+    = nikto
+    = whatweb
+    = wapiti
+    = commix
+    = sqlmap
 07) Stress Testing
     = • DOS
         = denial6
@@ -360,18 +347,39 @@ Note : * New Category or Tools
     = • WEB Application Fuzzer
         = websploit
         = xsser
+    = bed
+    = ohwurm
+    = powerfuzzer
+    = sfuzz
+    = uniscan
 08) Sniffing & Spoofing
     = • Network Sniffers
-        - 00hack
-    = • Spoofing and MITM
-        - 00hack
+        = wireshark
+    = • Mac Changger
+        = macchanger
+    = dnschef
+    = netsniff-ng
+    = rebind
+    = sslsplit
+    = tcpreplay
+    = ettercap-graphical
+    = macchanger
+    = minicom
+    = mitmproxy
+    = responder
+    = wireshark
 09) Password Attacks
     = • Network Spoofing Tools
+        = fake_mipv6
+    
     = • Offline Attacks
     = • Online Attacks
     = • Passing the Hash tools
     = • Password Profiling & Worldlists
     = • Physical Password Attacks
+    
+    
+    
 10) Maintaining Acces
     = • BeEF
        - 00hack
