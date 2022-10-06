@@ -371,56 +371,95 @@ Note : * New Category or Tools
 09) Password Attacks
     = • Network Spoofing Tools
         = fake_mipv6
-    
+        = fake_mld26
+	= fake_mld6
+	= fake_mldrouter6
+	= fake_router6
+	= fiked
+	= redir6
+	= thcping6
+	= toobig6
+	= yersinia
     = • Offline Attacks
+        = chntpw
+	= hashcat
+	= hashid
+	= hash-identifier
+	= ophcrack-cli
+	= samdump2
     = • Online Attacks
-    = • Passing the Hash tools
-    = • Password Profiling & Worldlists
-    = • Physical Password Attacks
-    
-    
-    
+        = svcrack
+	= hydra
+	= onesistyone
+	= patator
+	= thc-pptp-btuter
+    = • Physical Password Attacks 
+        = fake_route6
+	= parasite6
+    = • World Lists
+        = cewl
+	= crunch
+	= worldlists
+	= mimikatz
+	= smbmap
+	= medusa
+	= ncrack
+	= jhon
+    = medusa
+    = hydra
+    = crunch
 10) Maintaining Acces
-    = • BeEF
-       - 00hack
-    = • Dradis
-       - 00hack
     = • Metasploit
-       - 00hack
-    = • OpenVas
-       - 00hack
+       = metasploit
     = • Tunelling Tools
        = stunnel
-    = • Xplico
-       - 00hack
+    = weevely
+    = sbd
+    = powersplot
+    = dns2tcp
+    = cryptcat
 11) Hardware Hacking
-    + • Android Debugging
-       + adb
-    + • Flashing Tools
-       + SP Flash Tool (Mediatek)
-       + Heimdall (Odin)
-       + fastboot (Qualcomm)
-       + wireflasher (Xiaomi)
-    + • Disk Tools
-       + gparted
-       + dd
-       + hdsentinel https://www.hdsentinel.com/hard_disk_sentinel_linux.php
+    = • Android Debugging
+       = adb
+    = • Flashing Tools
+       = SP Flash Tool (Mediatek)
+       = Heimdall (Odin)
+       = fastboot (Qualcomm)
+       = wireflasher (Xiaomi)
+    = • Disk Tools
+       = gparted
+       = dd
+       = hdsentinel https://www.hdsentinel.com/hard_disk_sentinel_linux.php
+    = android-sdk
+    = apktool
+    = arduino
+    = dex2jar
+    = sakis3g
+    = smali
+    = srcpy
+    = wireflasher
 12) Reverse Engineering
-    + • Debugging
-       + adb
-       + edb-debugger http://codef00.com/projects#debugger
-       + valgrind https://www.valgrind.org/
-     + • Java Reverse engineering
-       + jad
-       + javasnoop https://code.google.com/archive/p/javasnoop/
-       + jd-gui http://java-decompiler.github.io/
-     + • Mobile Reverse Engineering
-       + apktool https://github.com/iBotPeaches/Apktool
-       + dex2jar https://github.com/pxb1988/dex2jar/
-     + • HEX
-       + hd 
-       + hexdump
-       + hexedit 
+    = • Debugging
+       = adb
+       = edb-debugger http://codef00.com/projects#debugger
+       = valgrind https://www.valgrind.org/
+     = • Java Reverse engineering
+       = jad
+       = javasnoop https://code.google.com/archive/p/javasnoop/
+       = jd-gui http://java-decompiler.github.io/
+     = • Mobile Reverse Engineering
+       = apktool https://github.com/iBotPeaches/Apktool
+       = dex2jar https://github.com/pxb1988/dex2jar/
+     = • HEX
+       = hd 
+       = hexdump
+       = hexedit 
+     = clang
+     = clang++
+     = nasm shell
+     = radare2
+     = ghidra
+     = apktools
 13) Reporting Tools
     = • Software Documentation
        = svreport
