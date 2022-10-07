@@ -8,3 +8,4 @@
 - httpx
 - nuclei
 - subfinder
+- Admin Finder (https://github.com/sxlmnwb/sxlzptprjkt-admin-finder)
