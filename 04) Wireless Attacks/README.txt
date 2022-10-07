@@ -27,3 +27,5 @@ OK fluxion https://github.com/FluxionNetwork/fluxion
     = mdk3                      [DEB-DEBIAN] apt install mdk3
     = pixiewps                  [DEB-DEBIAN] apt install pixiewps  
     = reaver                    [DEB-DEBIAN] apt install reaper  
+    
+ 
