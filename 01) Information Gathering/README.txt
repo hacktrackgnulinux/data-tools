@@ -1,5 +1,4 @@
 ## Information Gathering
-
 - nmap
 - maltego
 - recon-ng
