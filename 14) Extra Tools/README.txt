@@ -1,8 +1,14 @@
 ## Extra Tools  
-OK cilocks https://github.com/tegal1337/Cilocks
-OK thc-ipv6
-OK gnmap2md
-  
+OK FORK cilocks    https://github.com/tegal1337/Cilocks
+OK FORK thc-ipv6   https://github.com/vanhauser-thc/thc-ipv6
+OK ADD  gnmap2md   https://github.com/PaulVigneron/scripts-1/blob/master/gnmap2md.py
+OK FORK macchanger https://github.com/alobbs/macchanger
+                   http://ftp.us.debian.org/debian/pool/main/m/macchanger/macchanger_1.7.0.orig.tar.gz
+                   http://ftp.us.debian.org/debian/pool/main/m/macchanger/macchanger_1.7.0-5.4.debian.tar.xz
+OK FORK svcrash    https://github.com/EnableSecurity/sipvicious
+                   http://ftp.us.debian.org/debian/pool/main/s/sipvicious/sipvicious_0.3.3.orig.tar.gz
+                   http://ftp.us.debian.org/debian/pool/main/s/sipvicious/sipvicious_0.3.3-2.debian.tar.xz
+                   
 14) Extra Tools
     = • Converter Tools
        = gnmap2md                      [PYTHON-NATIVE] cp -v gnmap2md.py /usr/bin "source /pentest/14/gnmap2md
