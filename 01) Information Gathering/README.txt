@@ -7,4 +7,5 @@
 - httpx
 - nuclei
 - subfinder
-- Admin Finder (https://github.com/sxlmnwb/sxlzptprjkt-admin-finder)
+- sxlzptprjkt-admin-finder   https://github.com/sxlmnwb/sxlzptprjkt-admin-finder
+- okadminfinder3             https://github.com/mIcHyAmRaNe/okadminfinder3
