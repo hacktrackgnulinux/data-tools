@@ -14,16 +14,22 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 - aircrack-ng                https://github.com/aircrack-ng/aircrack-ng
 - squid3                     https://github.com/CIRDLES/Squid
 - dnstracer                  https://github.com/Orc/dnstracer
-- httrack                           https://github.com/xroche/httrack
+- httrack                    https://github.com/xroche/httrack
 - sxlzptprjkt-admin-finder   https://github.com/sxlmnwb/sxlzptprjkt-admin-finder
 - okadminfinder3             https://github.com/mIcHyAmRaNe/okadminfinder3
-
+- hexinject                  https://hexinject.sourceforge.net/
+- cdpsnarf                   https://github.com/Zapotek/cdpsnarf
+- svmap                      https://github.com/EnableSecurity/sipvicious
+- sctpscan                   https://github.com/philpraxis/sctpscan
+- multimac                   https://multimac.sourceforge.net/
+- intrace                    https://github.com/robertswiecki/intrace
 01) Information Gathering
+    = • Admin Login Page Finder 
+        = okadminfinder3                  [SOURCE-NATIVE] cd /pentest/01/okadminfinder3 && python3 okadminfinder3.py 
     = • CMS Identification
         = whatweb                         [DEB-DEBIAN] apt install whatweb
     = • DNS Analysis
         = dmitry                          [DEB-DEBIAN] apt install dmitry
-	    = dnmap
         = dnsdict6                        [DEB-DEBIAN] apt install thc-ipv6
         = dnsenum                         [DEB-DEBIAN] apt install dnsenum
         = dnsmap                          [DEB-DEBIAN] apt install dnsmap
@@ -31,7 +37,7 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
         = dnsrevenum6                     [DEB-DEBIAN] apt install dnsrevenum6
         = dnssecwalk                      [DEB-DEBIAN] apt install thc-ipv6 
         = dnstracer                       [DEB-DEBIAN] apt install dnstracer
-        = lbd 
+        = lbd                             [SOURCE-NATIVE] cd /pentest/01/lbd && bash lbd
         = nmap                            [DEB-DEBIAN] apt install nmap
         = urlcrazy                        [SOURCE-NATIVE] cd /pentest/01/urlcrazy && ruby urlcrazy
     = • DNS Evolution
@@ -41,7 +47,7 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
         = dnsrecon                        [DEB-DEBIAN] apt install dnsrecon
         = dnsrevenum6                     [DEB-DEBIAN] apt install dnsrevenum6
         = dnstracer                       [DEB-DEBIAN] apt install dnstracer         
-        = Nmap                            [DEB-DEBIAN] apt install nmap
+        = nmap                            [DEB-DEBIAN] apt install nmap
         = urlcrazy                        [SOURCE-NATIVE] cd /pentest/01/urlcrazy && ruby urlcrazy    
     = • Firewall Analysis 
         = denial6                         [DEB-DEBIAN] apt install thc-ipv6
@@ -54,29 +60,26 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
     = • HTTrack
         = httrack                         [DEB-DEBIAN] apt install httrack
     = • IDS/IPS Identification
-        = ftest
-	    = ftestd
-	    = ftester
-	    = hexinject
-	    = lbd
+	    = hexinject                       [BIN-NATIVE] cd /pentest/01/hexinject && ./hexinject
+	    = lbd                             [SOURCE-NATIVE] cd /pentest/01/lbd && bash lbd
 	    = wafw00f                         [DEB-DEBIAN] apt install wafw00f
     = • Live Host Identification
         = alive6                          [DEB-DEBIAN] apt install thc-ipv6
 	    = arping                          [DEB-DEBIAN] apt install arping
-	    = cdpsnarf
+	    = cdpsnarf                        [SOURCE-NATIVE] cd /pentest/01/cdpsnarf && ./cdpsnarf             
         = detect-new-ip6                  [DEB-DEBIAN] apt install thc-ipv6
 	    = detect_sniffer6                 [DEB-DEBIAN] apt install thc-ipv6
 	    = dmitry                          [DEB-DEBIAN] apt install dmitry
-	    = dnmap-client
-	    = dnamp-server
-        = four2six 
+        = dnmap-client                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmapc.py   
+	    = dnmap-server                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmaps.py  
+        = four2six                        [DEB-DEBIAN] apt install thc-ipv6
         = inverse_lookup6                 [DEB-DEBIAN] apt install thc-ipv6
-	    = miranda
+	    = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
 	    = nmap                            [DEB-DEBIAN] apt install nmap
 	    = passive_discovery6              [DEB-DEBIAN] apt install thc-ipv6
         = randicmp6                       [DEB-DEBIAN] apt install thc-ipv6
-        = sctpscan
-	    = svwar
+        = sctpscan                        [SOURCE-NATIVE] cd /pentest/01/sctpscan && ./sctpscan
+	    = svwar                           [DEB-DEBIAN] apt install sipvicious
         = thcping6                        [DEB-DEBIAN] apt install thc-ipv6
 	    = trace6                          [DEB-DEBIAN] apt install thc-ipv6
     = • Network & Port Scanners
@@ -84,28 +87,29 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = implementation6                 [DEB-DEBIAN] apt install thc-ipv6
 	    = implementation6d                [DEB-DEBIAN] apt install thc-ipv6
 	    = knockpy                         [DEB-DEBIAN] apt install knockpy
-	    = multimac
+	    = multimac                        [SOURCE-NATIVE] cd /pentest/01/multimac && ./multimac
 	    = nmap                            [DEB-DEBIAN] apt install nmap
 	    = scapy                           [DEB-DEBIAN] apt install scapy
     = • OS Fingerprint
-        = dnmap-client
-	    = dnmap-server
-	    = miranda
-	    = nmap                             [DEB-DEBIAN] apt install nmap
-	    = p0f                              [DEB-DEBIAN] apt install p0f
-	    = sctpscan
+        = dnmap-client                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmapc.py   
+	    = dnmap-server                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmaps.py  
+	    = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
+	    = nmap                            [DEB-DEBIAN] apt install nmap
+	    = p0f                             [DEB-DEBIAN] apt install p0f
+	    = sctpscan                        [SOURCE-NATIVE] cd /pentest/01/sctpscan && ./sctpscan
     = • Open Source Intelligence
-        = dmitry                           [DEB-DEBIAN] apt install dmitry
+        = dmitry                          [DEB-DEBIAN] apt install dmitry
 	    = revhosts
-	    = urlcrazy                         [SOURCE-NATIVE] cd /pentest/01/urlcrazy && ruby urlcrazy
+	    = urlcrazy                        [SOURCE-NATIVE] cd /pentest/01/urlcrazy && ruby urlcrazy
     = • Port Analysis 
-        = sslsplit                         [DEB-DEBIAN] apt install sslsplit
+        = sslsplit                        [DEB-DEBIAN] apt install sslsplit
     = • Proxy
-        = squid3                           
+        = squid                           [DEB-DEBIAN] apt install squid && squid -h
+        = tor                             [DEB-DEBIAN] apt install tor && man tor
     = • Route Analysis
-        = dnmap-client
-	    = dnmap-server
-	    = intrace
+        = dnmap-client                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmapc.py   
+	    = dnmap-server                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmaps.py  
+	    = intrace                         [SOURCE-NATIVE] cd /pentest/01/intrace && ./intrace -h 
 	    = scapy                           [DEB-DEBIAN] apt install scapy
 	    = trace6                          [DEB-DEBIAN] apt install thc-ipv6
     = • SMB Analysis
@@ -115,44 +119,44 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = swaks                           [DEB-DEBIAN] apt install swaks
     = • SNMP Analysis
         = onesixtyone                     [DEB-DEBIAN] apt install onesixtyone
-	    = snmpcheck
+	    = snmpcheck                       [SOURCE-NATIVE] cd /pentest/01/snmpcheck && ruby snmpcheck.rb  
     = • SSL Analysis
         = sslh                            [DEB-DEBIAN] apt install sslh
-	    = sslstrip
-	    = testssl.sh
+	    = sslstrip                        [SOURCE-NATIVE] cd /pentest/01/sslstrip && python3 sslstrip.py  
+	    = testssl.sh                      [SOURCE-NATIVE] cd /pentest/01/testssl-sh && bash testssl.sh  
     = • SSL Breakdown
         = sslh                            [DEB-DEBIAN] apt install sslh
 	    = sslscan
-	    = sslstrip
+	    = sslstrip                        [SOURCE-NATIVE] cd /pentest/01/sslstrip && python3 sslstrip.py  
 	    = stunnel
 	    = tlssled
     = • Service Analysis 
-        = miranda 
+        = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
     = • Service Fingerprinting
-        = dnmap-client
-	    = dnmap-server
-	    = implementation6                  [DEB-DEBIAN] apt install thc-ipv6
-	    = implementation6d                 [DEB-DEBIAN] apt install thc-ipv6
-	    = miranda
-	    = nmap                             [DEB-DEBIAN] apt install nmap
+        = dnmap-client                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmapc.py   
+	    = dnmap-server                    [SOURCE-NATIVE] cd /pentest/01/dnmap && python3 dnmaps.py   
+	    = implementation6                 [DEB-DEBIAN] apt install thc-ipv6
+	    = implementation6d                [DEB-DEBIAN] apt install thc-ipv6
+	    = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
+	    = nmap                            [DEB-DEBIAN] apt install nmap
 	    = sslscan
 	    = tlssled
     = • SMB Evolution
-        = nmap                             [DEB-DEBIAN] apt install nmap
+        = nmap                            [DEB-DEBIAN] apt install nmap
     = • SNMP Evolution
-        = nmap                             [DEB-DEBIAN] apt install nmap
+        = nmap                            [DEB-DEBIAN] apt install nmap
     = • Telphony Aalysis
-        = svmap
+        = svmap                           [DEB-DEBIAN] apt install sipvicious
     = • Traffic Monitor
-        = cdpsnarf
+        = cdpsnarf                        [SOURCE-NATIVE] cd /pentest/01/cdpsnarf && ./cdpsnarf
 	    = ftest
-	    = intrace
-	    = p0f                              [DEB-DEBIAN] apt install p0f
-	    = scapy                            [DEB-DEBIAN] apt install scapy
-	    = wireshark                        [DEB-DEBIAN] apt install wireshark
+	    = intrace                         [SOURCE-NATIVE] cd /pentest/01/intrace && ./intrace -h 
+	    = p0f                             [DEB-DEBIAN] apt install p0f
+	    = scapy                           [DEB-DEBIAN] apt install scapy
+	    = wireshark                       [DEB-DEBIAN] apt install wireshark
     = • VPN Analysis
         = fiked
-	    = ike-scan                         [DEB-DEBIAN] apt install ike-scan
+	    = ike-scan                        [DEB-DEBIAN] apt install ike-scan
 	    = ikecrack
     = • Web IPS IDS Analysis
         = waffit
@@ -161,20 +165,19 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = firewalk
 	    = iwebaudit
 	    = nmap-scrape
-	    = parsero                          [SOURCE-NATIVE] cd /pentest/03/parsero && python3 parsero.py                    
+	    = parsero                         [SOURCE-NATIVE] cd /pentest/03/parsero && python3 parsero.py                    
 	    = pyfoca
 	    = rid_enum
     = • Web Snanner
-        = dirb                             [DEB-DEBIAN] apt install dirb
+        = dirb                            [DEB-DEBIAN] apt install dirb
     = • Wireless Analysis
-        = airodump-ng                      [DEB-DEBIAN] apt install aircrack-ng
+        = airodump-ng                     [DEB-DEBIAN] apt install aircrack-ng
 	    = giskismet 
-	    = kismet                           [DEB-DEBIAN] apt install kismet
-	= nmap                                 [DEB-DEBIAN] apt install nmap
-	= maltego
+	    = kismet                          [DEB-DEBIAN] apt install kismet
+	= nmap                                [DEB-DEBIAN] apt install nmap
+	= maltego                             [DEB-DEBIAN] dpkg -i
 	= recon-ng
 	= sparta
-	= ike-scan                             [DEB-DEBIAN] apt install ike-scan
+	= ike-scan                            [DEB-DEBIAN] apt install ike-scan
 	= httpx
 	= nuclei
-	= subfinder
