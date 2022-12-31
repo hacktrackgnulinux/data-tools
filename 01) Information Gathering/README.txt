@@ -7,6 +7,7 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 - recon-ng
 - sparta
 - ike-scan                   https://github.com/royhills/ike-scan
+- ikecrack                   https://ikecrack.sourceforge.net/
 - httpx
 - nuclei
 - subfinder
@@ -23,6 +24,10 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 - sctpscan                   https://github.com/philpraxis/sctpscan
 - multimac                   https://multimac.sourceforge.net/
 - intrace                    https://github.com/robertswiecki/intrace
+- sslscan                    https://github.com/rbsec/sslscan
+- stunnel                    https://github.com/mtrojnar/stunnel
+- enum4linux                 https://labs.portcullis.co.uk/tools/enum4linux
+
 01) Information Gathering
     = • Admin Login Page Finder 
         = okadminfinder3                  [SOURCE-NATIVE] cd /pentest/01/okadminfinder3 && python3 okadminfinder3.py 
@@ -99,7 +104,6 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = sctpscan                        [SOURCE-NATIVE] cd /pentest/01/sctpscan && ./sctpscan
     = • Open Source Intelligence
         = dmitry                          [DEB-DEBIAN] apt install dmitry
-	    = revhosts
 	    = urlcrazy                        [SOURCE-NATIVE] cd /pentest/01/urlcrazy && ruby urlcrazy
     = • Port Analysis 
         = sslsplit                        [DEB-DEBIAN] apt install sslsplit
@@ -126,10 +130,8 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = testssl.sh                      [SOURCE-NATIVE] cd /pentest/01/testssl-sh && bash testssl.sh  
     = • SSL Breakdown
         = sslh                            [DEB-DEBIAN] apt install sslh
-	    = sslscan
 	    = sslstrip                        [SOURCE-NATIVE] cd /pentest/01/sslstrip && python3 sslstrip.py  
-	    = stunnel
-	    = tlssled
+	    = stunnel                         [SOURCE-NATIVE] cd /pentest/01/stunnel ./configure make make install
     = • Service Analysis 
         = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
     = • Service Fingerprinting
@@ -139,8 +141,6 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 	    = implementation6d                [DEB-DEBIAN] apt install thc-ipv6
 	    = miranda                         [SOURCE-NATIVE] cd /pentest/01/miranda && ./miranda
 	    = nmap                            [DEB-DEBIAN] apt install nmap
-	    = sslscan
-	    = tlssled
     = • SMB Evolution
         = nmap                            [DEB-DEBIAN] apt install nmap
     = • SNMP Evolution
@@ -149,19 +149,18 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
         = svmap                           [DEB-DEBIAN] apt install sipvicious
     = • Traffic Monitor
         = cdpsnarf                        [SOURCE-NATIVE] cd /pentest/01/cdpsnarf && ./cdpsnarf
-	    = ftest
 	    = intrace                         [SOURCE-NATIVE] cd /pentest/01/intrace && ./intrace -h 
 	    = p0f                             [DEB-DEBIAN] apt install p0f
 	    = scapy                           [DEB-DEBIAN] apt install scapy
 	    = wireshark                       [DEB-DEBIAN] apt install wireshark
     = • VPN Analysis
-        = fiked
+        = fiked                           [SOURCE-NATIVE] cd /pentest/01/fiked && ./fiked
 	    = ike-scan                        [DEB-DEBIAN] apt install ike-scan
-	    = ikecrack
+	    = ikecrack                        [SOURCE-NATIVE] cd /pentest/01/ikecrack && perl ikecrack.pl
     = • Web IPS IDS Analysis
-        = waffit
+        = wafw00f                         [DEB-DEBIAN] apt install wafw00f
     = • Web Inventory
-        = enum4linux
+        = enum4linux                      [SOURCE-NATIVE] cd /pentest/01/enum4linux && perl enum4linux.pl
 	    = firewalk
 	    = iwebaudit
 	    = nmap-scrape
