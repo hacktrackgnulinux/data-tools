@@ -5,12 +5,12 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 - dmitry                     https://github.com/jaygreig86/dmitry
 - maltego
 - recon-ng
-- sparta
+PENDING sparta
 - ike-scan                   https://github.com/royhills/ike-scan
 - ikecrack                   https://ikecrack.sourceforge.net/
-- httpx
-- nuclei
-- subfinder
+PENDING- httpx
+PENDING nuclei
+PENDING subfinder
 - urlcrazy                   https://github.com/urbanadventurer/urlcrazy
 - aircrack-ng                https://github.com/aircrack-ng/aircrack-ng
 - squid3                     https://github.com/CIRDLES/Squid
@@ -27,6 +27,10 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
 - sslscan                    https://github.com/rbsec/sslscan
 - stunnel                    https://github.com/mtrojnar/stunnel
 - enum4linux                 https://labs.portcullis.co.uk/tools/enum4linux
+- iwebaudit                  https://github.com/vonahisec/pentesting_scripts
+- pyfoca                     https://github.com/vonahisec/pentesting_scripts
+- ridenum                    https://github.com/trustedsec/ridenum
+- giskismet                  https://github.com/xtr4nge/giskismet
 
 01) Information Gathering
     = • Admin Login Page Finder 
@@ -161,22 +165,16 @@ OK whatweb                   https://github.com/urbanadventurer/WhatWeb
         = wafw00f                         [DEB-DEBIAN] apt install wafw00f
     = • Web Inventory
         = enum4linux                      [SOURCE-NATIVE] cd /pentest/01/enum4linux && perl enum4linux.pl
-	    = firewalk
-	    = iwebaudit
-	    = nmap-scrape
+	    = iwebaudit                       [SOURCE-NATIVE] cd /pentest/01/iwebaudit && python iwebaudit.py  
 	    = parsero                         [SOURCE-NATIVE] cd /pentest/03/parsero && python3 parsero.py                    
-	    = pyfoca
-	    = rid_enum
+	    = pyfoca                          [SOURCE-NATIVE] cd /pentest/01/pyfoca && python pyfoca.py  
+	    = ridenum                         [SOURCE-NATIVE] cd /pentest/01/ridenum && python ridenum.py 
     = • Web Snanner
         = dirb                            [DEB-DEBIAN] apt install dirb
     = • Wireless Analysis
         = airodump-ng                     [DEB-DEBIAN] apt install aircrack-ng
-	    = giskismet 
+	    = giskismet                       [SOURCE-NATIVE] cd /pentest/01/giskismet && ./giskismet
 	    = kismet                          [DEB-DEBIAN] apt install kismet
 	= nmap                                [DEB-DEBIAN] apt install nmap
 	= maltego                             [DEB-DEBIAN] dpkg -i
-	= recon-ng
-	= sparta
 	= ike-scan                            [DEB-DEBIAN] apt install ike-scan
-	= httpx
-	= nuclei
