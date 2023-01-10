@@ -1,17 +1,24 @@
 ## Extra Tools  
 [DATA]
-MENU REPO NAME       SOURCE
+MENU REPO NAME       VERSION SOURCE
 OK   FORK cilocks    https://github.com/tegal1337/Cilocks
-OK   FORK thc-ipv6   https://github.com/vanhauser-thc/thc-ipv6
+OK   FORK thc-ipv6   3.8-1 https://github.com/vanhauser-thc/thc-ipv6
 OK   ADD  gnmap2md   https://github.com/PaulVigneron/scripts-1/blob/master/gnmap2md.py
 OK   FORK macchanger https://github.com/alobbs/macchanger
                      http://ftp.us.debian.org/debian/pool/main/m/macchanger/macchanger_1.7.0.orig.tar.gz
                      http://ftp.us.debian.org/debian/pool/main/m/macchanger/macchanger_1.7.0-5.4.debian.tar.xz
-OK FORK svcrash      https://github.com/EnableSecurity/sipvicious
+OK   FORK svcrash      https://github.com/EnableSecurity/sipvicious
                      http://ftp.us.debian.org/debian/pool/main/s/sipvicious/sipvicious_0.3.3.orig.tar.gz
                      http://ftp.us.debian.org/debian/pool/main/s/sipvicious/sipvicious_0.3.3-2.debian.tar.xz
-                   
+OK   FORK R-Finder  2 https://github.com/ICWR-TEAM/R-Finder
+OK   FORK D1r5      - https://github.com/ICWR-TEAM/D1r5
+OK   FORK R-ASQLi   - https://github.com/ICWR-TEAM/R-ASQLi
+
 14) Extra Tools
+    = • R&D ICWR
+       = R-Finder                      [SOURCE-NATIVE] /pentest/14/R-Finder
+       = D1r5                          [SOURCE-NATIVE] /pentest/14/D1r5
+       = R-ASQLi                       [SOURCE-NATIVE] /pentest/14/R-ASQLi
     = • Converter Tools
        = gnmap2md                      [PYTHON-NATIVE] cp -v gnmap2md.py /usr/bin "source /pentest/14/gnmap2md
     = • Miscellaneous
