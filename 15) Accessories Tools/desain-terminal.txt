@@ -1,0 +1,18 @@
+#terminal
+Buat kamu yang terminal nya jadi cantik bisa gunakan ini
+https://github.com/GitSquared/edex-ui
+
+=== cara install ===
+
+On linux :
+- clone the repository -> git clone https://github.com/GitSquared/edex-ui
+- lalu cd edex-ui
+- npm run install-linux 
+- npm run start
+
+On windows :
+- start cmd or powershell as administrator
+- clone the repository
+- npm run install-windows
+- npm run start
+
