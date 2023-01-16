@@ -19,12 +19,14 @@ OK   FORK R-ASQLi   - https://github.com/ICWR-TEAM/R-ASQLi
        = R-Finder                      [SOURCE-NATIVE] /pentest/14/R-Finder
        = D1r5                          [SOURCE-NATIVE] /pentest/14/D1r5
        = R-ASQLi                       [SOURCE-NATIVE] /pentest/14/R-ASQLi
+    = • Tegal1337
+       = cilocks                       [BASH-NATIVE] /pentest/14/cilocks
     = • Converter Tools
        = gnmap2md                      [PYTHON-NATIVE] cp -v gnmap2md.py /usr/bin "source /pentest/14/gnmap2md
     = • Miscellaneous
-       = macchanger                    [DEB-DEBIAN] apt install 
+       = macchanger                    [DEB-DEBIAN] apt install macchanger
     = • SipVicius Tools
-       = svcrash                       [DEB-DEBIAN] apt install 
+       = svcrash                       [DEB-DEBIAN] apt install sipvicious
     = • THC IPv6 Tools
        = 6to4tesh.sh                   [DEB-DEBIAN] apt install thc-ipv6
        = address6                      [DEB-DEBIAN] apt install thc-ipv6 
@@ -55,4 +57,3 @@ OK   FORK R-ASQLi   - https://github.com/ICWR-TEAM/R-ASQLi
        = sendpeesmp6                   [DEB-DEBIAN] apt install thc-ipv6
        = six2four.sh                   [DEB-DEBIAN] apt install thc-ipv6
        = toobigsniff6                  [DEB-DEBIAN] apt install thc-ipv6
-    = cilocks                          [BASH-NATIVE] /pentest/14/cilocks
