@@ -11,6 +11,9 @@ PENDING sparta
 PENDING- httpx
 PENDING nuclei
 PENDING subfinder
+PENDING arjun https://github.com/s0md3v/Arjun
+PENDING katana https://github.com/projectdiscovery/katana
+PENDING dirsearch https://github.com/maurosoria/dirsearch
 - urlcrazy                   https://github.com/urbanadventurer/urlcrazy
 - aircrack-ng                https://github.com/aircrack-ng/aircrack-ng
 - squid3                     https://github.com/CIRDLES/Squid
@@ -178,3 +181,4 @@ PENDING subfinder
 	= nmap                                [DEB-DEBIAN] apt install nmap
 	= maltego                             [DEB-DEBIAN] dpkg -i
 	= ike-scan                            [DEB-DEBIAN] apt install ike-scan
+
