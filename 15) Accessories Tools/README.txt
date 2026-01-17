@@ -15,7 +15,7 @@ OK mate-system-monitor
 OK mate-screenshot 
 OK mate-terminal
 OK pluma
-PENDING openvpn
+PENDING openvpn https://github.com/openvpn/openvpn/
 
 15) Acessories Tools
   CLI Applications
