@@ -12,6 +12,7 @@ PENDING Wapiti https://github.com/wapiti-scanner/wapiti/releases
 OK Commix https://github.com/commixproject/commix
 OK Sqlmap https://github.com/sqlmapproject/sqlmap
 OK joomscan https://github.com/OWASP/joomscan
+PENDING ffuf https://github.com/ffuf/ffuf
 
 
 06) Web Application
@@ -31,3 +32,5 @@ OK joomscan https://github.com/OWASP/joomscan
     = commix                                  [SOURCE-NATIVE] /pentest/06/commix ./commix.py 
     = sqlmap                                  [DEB-DEBIAN] apt install sqlmap
                                               [SOURCE-NATIVE] /pentest/06/sqlmap ./sqlmap.py
+
+
