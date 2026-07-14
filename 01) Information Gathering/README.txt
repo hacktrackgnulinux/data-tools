@@ -14,6 +14,7 @@ PENDING subfinder
 PENDING arjun https://github.com/s0md3v/Arjun
 PENDING katana https://github.com/projectdiscovery/katana
 PENDING dirsearch https://github.com/maurosoria/dirsearch
+PENDING trufflehog https://github.com/trufflesecurity/trufflehog
 - urlcrazy                   https://github.com/urbanadventurer/urlcrazy
 - aircrack-ng                https://github.com/aircrack-ng/aircrack-ng
 - squid3                     https://github.com/CIRDLES/Squid
