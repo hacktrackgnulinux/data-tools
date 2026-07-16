@@ -20,6 +20,7 @@ OK   FORK R-AScan   - https://github.com/ICWR-TEAM/R-AScan
        = R-Finder                      [SOURCE-NATIVE] /pentest/14/R-Finder
        = D1r5                          [SOURCE-NATIVE] /pentest/14/D1r5
        = R-ASQLi                       [SOURCE-NATIVE] /pentest/14/R-ASQLi
+       = R-AScan                       [SOURCE-NATIVE] /pentest/14/R-AScan
     = • Tegal1337
        = cilocks                       [BASH-NATIVE] /pentest/14/cilocks
     = • Converter Tools
